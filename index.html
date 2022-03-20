@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__navbar">
+                <div class="navbar__logo">
+                    <a href="" class="navbar__logo-link" title="Burberry">
+                        <svg class="navbar__logo-img" viewBox="0 0 132 17" focusable="false">
+                            <path fill="currentColor" fill-rule="evenodd" 
+                                d="m0 0v16.848h9.2793c2.6141-0.0086 4.7383-2.1414 4.7383-4.7637 0-1.8612-1.1035-3.7927-3.3672-4.5664 1.1991-0.7478 1.918-2.0422 1.918-3.4531 0-2.2295-1.8014-4.0465-4.0215-4.0645-0.43615 0 0.023545-7e-4 -8.5469 0zm16.291 0v10.166c0 4.4359 2.7452 7.084 7.3418 7.084h2e-3c4.5966 0 7.3398-2.6481 7.3398-7.084v-10.166h-3.9219v9.9023c0 2.3984-1.2461 3.7734-3.418 3.7734h-2e-3c-2.172 0-3.418-1.375-3.418-3.7734v-9.9023zm17.689 0v16.848h3.8203v-6.541h3.041l3.7188 6.541h4.2559l-4.0156-7.0625c1.7751-0.8533 2.9121-2.651 2.9121-4.6309 0-2.8418-2.3071-5.1541-5.1426-5.1543zm16.99 0v16.848h9.2793c2.6141-0.0086 4.7383-2.1414 4.7383-4.7637 0-1.8612-1.1035-3.7929-3.3672-4.5664 1.1991-0.7478 1.916-2.0424 1.916-3.4531 0-2.2295-1.7994-4.0465-4.0195-4.0645-0.4362 0 0.02352-7e-4 -8.5469 0zm16.523 0v16.848h12.986v-3.3828h-9.0625v-3.5938h7.5723v-3.2852h-7.5723v-3.3711h8.6367v-3.2148zm15.826 0v16.848h3.8223v-6.541h3.0391l3.7188 6.541h4.2578l-4.0176-7.0625c1.7749-0.8533 2.9141-2.651 2.9141-4.6309 0-2.8418-2.3071-5.1541-5.1426-5.1543zm16.99 0v16.846h3.8223v-6.5391h3.041l3.7168 6.541h4.2578l-4.0176-7.0625c1.775-0.8533 2.9141-2.651 2.9141-4.6309 0-2.8418-2.3076-5.1541-5.1426-5.1543zm14.197 0 6.6699 9.9824v6.8652h4.1367v-6.8652l6.6856-9.9824h-4.8984l-3.8555 5.793-3.8398-5.793zm-110.66 3.1445h3.1406c0.95563 0 1.7617 0.79643 1.7617 1.7402 0 0.9762-0.77304 1.7402-1.7617 1.7402h-3.1406zm50.971 0h3.1387c0.9556 0 1.7637 0.79643 1.7637 1.7402 0 0.9762-0.77497 1.7402-1.7637 1.7402h-3.1387zm-17.086 0.11523h4.1191l-0.01758 0.00977c1.2536 0.067 2.0527 0.79583 2.0527 1.8945 0 1.0884-0.85526 1.8512-2.1309 1.8965l-4.0234-0.00391zm49.342 0h4.1172l-0.01562 0.00977c1.2535 0.067 2.0527 0.79583 2.0527 1.8945 0 1.0884-0.85516 1.8512-2.1309 1.8965l-4.0234-0.00391zm16.99 0h4.1172l-0.0156 0.00977c1.253 0.067 2.0527 0.79583 2.0527 1.8945 0 1.0884-0.85486 1.8512-2.1309 1.8965l-4.0234-0.00391zm-49.246 6.5078h4.2891c1.4165 0 2.0527 1.1311 2.0527 1.9336 1e-6 0.9957-0.70443 2.0039-2.0527 2.0039h-4.2891zm-50.971 0.0019531h4.2891c1.4165 0 2.0527 1.1291 2.0527 1.9316 0 0.996-0.7047 2.0039-2.0527 2.0039h-4.2891z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="navbar__main">
+                    <ul class="navbar__main-list">
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">NEW IN</span>
+                            </a>
+                        </li>
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">WOMEN</span>
+                            </a>
+                        </li>
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">MEN</span>
+                            </a>
+                        </li>
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">CHILDREN</span>
+                            </a>
+                        </li>
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">OUTERWEAR</span>
+                            </a>
+                        </li>
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">BAGS</span>
+                            </a>
+                        </li>
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">GIFTS</span>
+                            </a>
+                        </li>
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">STORIES</span>
+                            </a>
+                        </li>
+                        <li class="navbar__main-list-item">
+                            <a href="#" class="main-list-item__link">
+                                <span class="main-list-item__type">BEYOND</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <ul class="navbar__list">
+                    <li class="navbar__list-item list-item__search">
+                        <a href="#" class="list-item__link" title="search">
+                            <i class="list-item__icon fa-solid fa-magnifying-glass"></i>
+                        </a>
+                        <div class="subnav">
+                            <input class="subnav-search" type="search" placeholder="Search">
+                        </div>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#" class="list-item__link" title="account">
+                            <i class="list-item__icon fa-solid fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#" class="list-item__link" title="bag">
+                            <i class="list-item__icon fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="slide">
+        <img src="/assets/img/slide-img.jpg" alt="" class="slide__img">
+        <div class="slide__title">
+            <h1 class="slide__main-title">Sunglasses & Glasses</h1>
+            <span class="slide__sub-title">Bold-framed glasses and sunglasses characterize the Burberry eyewear line for women, from classic aviators to cat-eyes and crystal Hollywood Forever styles.</span>
+        </div>
+    </div>
+
+    <div class="facet-bar">
+        <ul class="facet-bar__list">
+            <li class="facet-bar__list-item">
+                <span class="facet-bar__name">SORT BY PRICE</span>
+                <i class="fa-solid fa-angle-down"></i>
+
+                <ul class="facet-subar">
+                    <li class="facet-subar__list facet-subar__list--active">
+                        <i class="fa-solid fa-check facet-subar__list-icon"></i>
+                        <span class="facet-subar__list-title">Default</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">High</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Low</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="facet-bar__list-item">
+                <span class="facet-bar__name">CATEGORY</span>
+                <i class="fa-solid fa-angle-down"></i>
+
+                <ul class="facet-subar">
+                    <li class="facet-subar__list facet-subar__list--active">
+                        <i class="fa-solid fa-check facet-subar__list-icon"></i>
+                        <span class="facet-subar__list-title">Select all</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Opticals</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Sunglasses</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="facet-bar__list-item">
+                <span class="facet-bar__name">STYLE</span>
+                <i class="fa-solid fa-angle-down"></i>
+
+                <ul class="facet-subar">
+                    <li class="facet-subar__list facet-subar__list--active">
+                        <i class="fa-solid fa-check facet-subar__list-icon"></i>
+                        <span class="facet-subar__list-title">Select all</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Pilot</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Round</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Square</span>
+                    </li>
+                </ul>
+            </li>
+            <li class="facet-bar__list-item">
+                <span class="facet-bar__name">COLOR</span>
+                <i class="fa-solid fa-angle-down"></i>
+                
+                <ul class="facet-subar">
+                    <li class="facet-subar__list facet-subar__list--active">
+                        <i class="fa-solid fa-check facet-subar__list-icon"></i>
+                        <span class="facet-subar__list-title">Select all</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Black</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Brown</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Grey</span>
+                    </li>
+                    <li class="facet-subar__list">
+                        <span class="facet-subar__list-title">Blue</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="product">
+        <div class="row">
+            <div class="product-card col-sm-6 col-lg-4 col-xl-3">
+                <a href="#" class="product-card__link">
+                    <div class="product-card__home">
+                        <img src="/assets/img/glasses-1.jpg" alt="" class="product-card__home-img">
+                        <img src="/assets/img/hover-1.jpg" alt="" class="product-card__home-img product-card__home-img--behind">
+                    </div>
+                    <div class="product-card__detail">
+                        <span class="product-card__title">Check Rectangular Frame Sunglasses</span>
+                        <span class="product-card__price">$270.00</span>
+                        <span class="product-card__color">2 colours</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
