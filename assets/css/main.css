@@ -207,6 +207,7 @@
     top: 88px;
     cursor: pointer;
     z-index: 90;
+    overflow-x: auto;
 }
 
 .facet-bar__list {
@@ -424,6 +425,7 @@
     align-items: center;
     margin-top: 50px;
     padding-bottom: 60px;
+    overflow: hidden;
 }
 
 .service-list {
