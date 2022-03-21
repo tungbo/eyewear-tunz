@@ -207,7 +207,6 @@
     top: 88px;
     cursor: pointer;
     z-index: 90;
-    overflow-x: auto;
 }
 
 .facet-bar__list {

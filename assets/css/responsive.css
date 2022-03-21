@@ -35,7 +35,7 @@
 
 @media (max-width: 767px) {
     .hide-on-mobile {
-        display: none;
+        display: none !important;
     }
 
     .navbar__main {
@@ -52,5 +52,9 @@
 
     .slide__sub-title {
         font-size: 15px;
+    }
+
+    .facet-bar {
+        overflow-x: auto;
     }
 }
