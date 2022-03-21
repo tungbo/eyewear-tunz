@@ -26,6 +26,15 @@
     }
   }
 
+@keyframes flyIn {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
 .list-item__search::before {
     content: "";
     top: 0;
@@ -39,8 +48,4 @@
 
 .list-item__search:hover::before {
     display: block;
-}
-
-body {
-  height: 5000px;
 }

@@ -1,0 +1,56 @@
+/* Mobile & Tablet */
+@media (max-width: 1200px) {
+    
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    
+    .footer-title {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar__main {
+        display: none;
+    }
+
+    .header__navbar {
+        justify-content: space-between;
+    }
+
+    .subnav {
+        display: none;
+    }
+
+    .slide__sub-title {
+        font-size: 16px;
+    }
+
+    .slide__main-title {
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .navbar__main {
+        display: none;
+    }
+
+    .header__navbar {
+        justify-content: space-between;
+    }
+
+    .slide__main-title {
+        font-size: 26px;
+    }
+
+    .slide__sub-title {
+        font-size: 15px;
+    }
+}
